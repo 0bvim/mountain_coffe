@@ -14,8 +14,8 @@ public class Main
 		name = "Marrie";
 		
 		System.out.println("Age = " + age);
-		System.out.println("payment = " + payment);
-		System.out.println("height = " + height);
+		System.out.println("payment = " + String.format("%.2f", payment));
+		System.out.println("height = " + String.format("%.2f", height));
 		System.out.println("gen = " + gen);
 		System.out.println("name = " + name);
 	}
